@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head> 
+	<title>Contact Page</title> 
+	<meta charset="utf-8"> 
+	<meta name="description" content="domain name and hosting supported by local customer service">
+	<meta name="keywords" content="Web design, development, hosting, domain name"> 
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0"> 
+	<link rel="stylesheet" href="css/MyStyle.css"> 
+			
+	</style> 
+
+</head> 
+
+<body>
+<main> 
+
+
+	<!--Task: make an unordered list for menu items: Home, About, Product, Contact page.  -->
+	
+	<ul id="menu">
+		<a href="index.html"> <li>Home</li> </a> 
+		<a href="about.html"> <li>About</li> </a> 
+		<a href="product.html"> <li>Product</li> </a> 
+		<a href="contact.html"> <li>Contact Us</li> </a> 
+    </ul>
+	
+	
+	<h1 style="border: 2px solid green;"> Contact Us </h1> 
+	
+	<form method="post" action="mailto:tanveer.ahmad@estio.co.uk" enctype="text/plain">
+		<label for="name">Name: </label><br/>
+		<input type="text" name="name" required /><br/>
+		<label for="phone-num">Phone Number: </label><br/>
+		<input type="text" name="phone-num" required /><br/>
+		<label for="email">Email: </label><br/>
+		<input type="email" name="email" required /><br/>
+		
+		<label for="gender">Gender: </label><br/>
+		<label for="male">Male </label>
+		<input type="radio" name="gender" value="male" /><br/>
+		<label for="male">Female </label>
+		<input type="radio" name="gender" value="female" /><br/>
+		<label for="male">Other </label>
+		<input type="radio" name="gender" value="other" /><br/>
+		
+		<label for="message">Message: </label><br/>
+		<textarea type="textarea" name="message" rows="5" cols="50"></textarea><br/>
+
+		<input type="submit" value="Submit" />
+	</form>
+	
+	
+	<footer> 
+		<p style="text-align: center"> &copy; 2021 XYZ LTD. </p> 
+	</footer> 
+</main> 
+</body> 
+</html>

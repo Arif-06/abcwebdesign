@@ -1,0 +1,49 @@
+
+	 h1, h2{
+	 border: 4px dotted #e3928d;
+	 }
+	 
+	 main{
+	  width: 80%;
+	  margin:auto;
+	 }
+	 
+	 body{	 
+	 background: #c6e3af;
+	 font-family: serif,cursive, san-serif;
+	 margin: 0px;
+	 }
+	 
+	 footer{
+		background: grey;
+		color: white;
+		padding: 5px;
+	 }
+	 
+	 #menu{
+	 list-style-type:none; 
+	 text-align: right;
+	 margin: 0px;
+	 background-color: #916aba;
+	 overflow: hidden;
+	 padding: 10px; 
+	 }
+	 
+	 #menu li{
+		display: inline;
+		 padding: 20px;
+	 }
+	 
+	 #menu a{
+	 text-decoration: none; 
+	 color: white;
+	 }
+	 a li:hover
+	 {
+		background: #d92ebc;
+		color: white;
+	 }
+	 
+	 a li:active{
+		color: red; 
+	 }
